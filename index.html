@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>Calculator</header>
+        <main>
+            <mainPanel>
+                <span class="result">0</span>
+                <buttons>
+                    <button id="plus" data-key1="107" data-key2="187" data-key3="43" class="op">+</button>
+                    <button id="minus" data-key1="109" data-key2="189" data-key3="45" class="op">-</button>
+                    <button id="time" data-key1="106" data-key2="42" class="op">*</button>
+                    <button id="divide" data-key1="47" data-key2="92" data-key3="111" class="op">\</button>
+                    <button id="clear" data-key1="127">clear</button>
+                    <button id="backspace" data-key1="8">BackSpace</button>
+                </buttons>
+                <numbers>
+                    <button id="one" data-key1="49" data-key2="97" class="number">1</button>
+                    <button id="two" data-key1="50" data-key2="98" class="number">2</button>
+                    <button id="three" data-key1="51" data-key2="99" class="number">3</button>
+                    <button id="four" data-key1="52" data-key2="100" class="number">4</button>
+                    <button id="five" data-key1="53" data-key2="101" class="number">5</button>
+                    <button id="six" data-key1="54" data-key2="102" class="number">6</button>
+                    <button id="seven" data-key1="55" data-key2="103" class="number">7</button>
+                    <button id="eight" data-key1="56" data-key2="104" class="number">8</button>
+                    <button id="nine" data-key1="57" data-key2="105" class="number">9</button>
+                    <button id="decimal" data-key1="110" data-key2="44" data-key3="46">.</button>
+                    <button id="zero" data-key1="48" data-key2="96" class="number">0</button>
+                    <button id="equal" data-key1="13" data-key2="61" data-key3="187" class="op">=</button>
+                </numbers>
+            </mainPanel>
+        </main>
+        <footer>
+            Copyright ©
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+            <a href="https://github.com/CharbelElBateh" target="_blank">CharbelElBateh</a>
+        </footer>
+    </body>
+</html>

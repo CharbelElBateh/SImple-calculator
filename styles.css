@@ -100,6 +100,9 @@ span{
     text-align: end;
     color: #09ff88;
     background-color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 footer{
